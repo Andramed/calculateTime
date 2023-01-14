@@ -1,0 +1,13 @@
+.time--speed--70 {
+	display: flex;
+	align-items: center;
+   background: #a8ff78;  
+	background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  
+	background: linear-gradient(to right, #78ffd6, #a8ff78);
+  }
+  .container {
+	display: flex;
+  }
+  p {
+	margin: 10px;
+  }

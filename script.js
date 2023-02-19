@@ -2,8 +2,8 @@
 const hourText = document.querySelector('.hour');
 const minuteText = document.querySelector('.minutes');
 const secondText = document.querySelector('.seconds');
-const distance = document.querySelector('#distance--text');
-const speed = document.querySelector('#speed');
+const distance = document.querySelector('.distance');
+const speed = document.querySelector('.speed');
 
 let btnCalculate = document.querySelector('.btn--calculate');
 

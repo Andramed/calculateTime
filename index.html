@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +11,15 @@
   <div class="time--speed--70">
     <p> Write distance:</p>
     <form>
-      <input type="text" id = 'distance--text' placeholder = 'distance' >
-      <input type="text" id = 'speed' placeholder = 'speed'>
+      <input type="text" id = 'distance--text' placeholder = 'distance' class="distance" >
+      <input type="text" id = 'speed' class = "speed" placeholder = 'speed'>
+	  <select id="brake-select">
+		<option value="">Choose a brake</option>
+		<option value="47">45 minutes</option>
+		<option value="9">9 hour</option>
+		<option value="24">24 hour</option>
+		<option value="45">45 hour</option>
+	</select>
     </form>
     <button class="btn--calculate">
       Calculate
@@ -22,7 +29,18 @@
       <p class="minutes">Minutes</p>
       <p class="seconds">Seconds</p>
     </div>
+	
   </div>
-  <script src="script.js"></script>
+  <!-- <div class="brake-24-45 time--speed--70">
+	<p>Select the date when the break starts</p>
+	<input type="datetime-local" id="time-local">
+	<select id="brake-long">
+		<option value="">Choose a brake</option>
+		<option value="24">24 hour</option>
+		<option value="45">45 hour</option>
+	</select>
+	<button class="submit" >submmit</button>
+</div> -->
+  <script src="index.js"></script>
 </body>
 </html>
